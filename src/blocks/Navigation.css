@@ -1,0 +1,34 @@
+/*marking for pull request analysis*/
+.navigation__nav-link {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.6;
+  text-align: center;
+  height: fit-content;
+  text-wrap: none;
+  width: fit-content;
+}
+
+.navigation__nav-link__active {
+  opacity: 1;
+  border: none;
+  border-style: none;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.navigation__main {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  width: fit-content;
+  padding-right: 10%;
+}
+@media screen and (width < 805px) {
+  .navigation__main {
+    padding-right: 0;
+  }
+}

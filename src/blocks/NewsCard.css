@@ -1,0 +1,119 @@
+/*marking for pull request analysis*/
+.newsCard__main {
+  height: 576px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #9b9999;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.newsCard__hover-prompt-wrapper {
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  right: 60px;
+  top: 10px;
+  border-radius: 5%;
+}
+
+.newsCard__action-button {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  top: 20px;
+  right: 10px;
+  align-self: end;
+  border: none;
+  border-radius: 10%;
+  padding: 0;
+  width: 32px;
+}
+
+.newsCard__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.newsCard__cover-image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.newsCard__textual-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  height: 45%;
+  width: 95%;
+  position: relative;
+  bottom: 5%;
+}
+
+.newsCard__hyperlink {
+  position: relative;
+  height: 272px;
+  justify-self: flex-start;
+  bottom: 5%;
+}
+
+.newsCard__hyperlink_type_text {
+  text-decoration: none;
+  margin-bottom: 5%;
+}
+
+.newsCard__date {
+  color: rgba(182, 188, 191, 1);
+}
+
+.newsCard__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: white;
+  height: 24px;
+  text-align: center;
+  font-family: "Cabinet Grotesk";
+  font-weight: 700;
+  size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 1);
+  border: none;
+  text-decoration: none;
+}
+
+.newsCard__source {
+  color: rgba(182, 188, 191, 1);
+}
+
+@media screen and (width < 845px) {
+  .newsCard__main {
+    width: 90%;
+  }
+
+  .newsCard__date {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .newsCard__hyperlink_type_text {
+    text-wrap-mode: nowrap;
+  }
+
+  .newsCard__source {
+    margin: 0;
+  }
+
+  .newsCard__textual-wrapper {
+    align-content: space-between;
+    bottom: 0;
+    row-gap: 25px;
+  }
+}

@@ -1,0 +1,18 @@
+/*marking for pull request analysis*/
+.loginModal__main {
+  justify-items: center;
+}
+.loginModal__form-label {
+  background: none;
+  background-color: white;
+}
+
+.loginModal__input {
+  background: none;
+  background-color: unset !important;
+  border: none;
+  border-bottom: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  color: black;
+}

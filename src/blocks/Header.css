@@ -1,0 +1,73 @@
+/*marking for pull request analysis*/
+.header__main {
+  width: 100%;
+  max-height: 62px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-style: none;
+  border-width: 0;
+  border-bottom: darkslategray;
+  border-bottom-width: 2px;
+}
+
+.header__sub-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+  margin-right: 10px;
+}
+
+.header__button {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  height: 48px;
+  width: 176px;
+  border-radius: 100px;
+  border: 1px;
+  border-style: solid;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  transition: opacity 0.4s;
+  opacity: 1;
+}
+
+.header__button:hover {
+  opacity: 0.7;
+}
+
+.header__button:active {
+  opacity: 1;
+}
+
+.header__button_type_sign-in {
+  text-justify: center;
+}
+
+.header__glyph {
+  height: 24px;
+  width: 24px;
+  align-self: center;
+}
+
+.header__title {
+  text-align: center;
+  margin-left: 6px;
+}
+@media screen and (width < 805px) {
+  .header__main {
+    flex-direction: column;
+    max-height: 120px;
+    max-height: none;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .header__sub-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+}
