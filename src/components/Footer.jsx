@@ -1,4 +1,3 @@
-//marking for pull request analysis
 import { NavLink } from "react-router-dom";
 import linkedIn from "../assets/LinkedIn.svg";
 import github from "../assets/github.svg";

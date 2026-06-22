@@ -1,4 +1,3 @@
-//marking for pull request analysis
 import Navigation from "./Navigation.jsx";
 import logout from "../assets/logout.svg";
 import logoutW from "../assets/logoutW.svg";

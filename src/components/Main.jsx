@@ -1,4 +1,3 @@
-//marking for pull request analysis
 import SearchForm from "./SearchForm.jsx";
 import About from "./About.jsx";
 import NewsCardList from "./NewsCardList.jsx";
