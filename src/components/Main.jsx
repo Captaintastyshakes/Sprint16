@@ -14,7 +14,7 @@ export default function Main({
 }) {
   return (
     <>
-      <div className="main__main">
+      <main className="main__main">
         <div className="main__sub-wrapper">
           {children}
           <div className="main__titles-wrapper">
@@ -39,7 +39,7 @@ export default function Main({
           />
         )}
         {<About />}
-      </div>
+      </main>
     </>
   );
 }
