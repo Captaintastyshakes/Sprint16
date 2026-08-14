@@ -1,4 +1,3 @@
-//marking for pull request analysis
 import { NavLink } from "react-router-dom";
 import linkedIn from "../assets/LinkedIn.svg";
 import github from "../assets/github.svg";
@@ -6,7 +5,7 @@ import github from "../assets/github.svg";
 export default function Footer() {
   return (
     <>
-      <div className="footer__main">
+      <footer className="footer__main">
         <p className="footer__trademark-text">
           ©2024 Supersite, Powered by News API
         </p>
@@ -39,7 +38,7 @@ export default function Footer() {
             <img className="footer__icon" src={linkedIn} alt="Linked-in icon" />
           </a>
         </div>
-      </div>
+      </footer>
     </>
   );
 }

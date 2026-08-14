@@ -1,4 +1,3 @@
-//marking for pull request analysis/
 import portrait from "../assets/IMG_3983.jpg"; //I am well aware how goofy the photo is but it was all I had at the time and frankly it grew on me.
 
 export default function About() {

@@ -1,4 +1,3 @@
-//marking for pull request analysis
 export default function PreLoader() {
   return (
     <>

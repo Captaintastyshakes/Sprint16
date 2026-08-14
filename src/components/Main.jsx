@@ -1,4 +1,3 @@
-//marking for pull request analysis
 import SearchForm from "./SearchForm.jsx";
 import About from "./About.jsx";
 import NewsCardList from "./NewsCardList.jsx";
@@ -15,7 +14,7 @@ export default function Main({
 }) {
   return (
     <>
-      <div className="main__main">
+      <main className="main__main">
         <div className="main__sub-wrapper">
           {children}
           <div className="main__titles-wrapper">
@@ -40,7 +39,7 @@ export default function Main({
           />
         )}
         {<About />}
-      </div>
+      </main>
     </>
   );
 }
