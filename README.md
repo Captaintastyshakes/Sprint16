@@ -6,4 +6,4 @@ The basic premise of the project is to make a call to a news-searching API servi
 With the addition of basic, (and I mean BASIC right now,) user functionality these articles can be 'saved' for future reference.
 The site is built with the Vite quickstart framework, using React and Javascript under the hood, to manage interactivity and data handling.
 
-In the future the backend will likely be built with a blend of MongoDb and Node.js to create and manage the site database.
+In the future the backend will likely be built with a blend of MongoDb and Node.js to create and manage the site database. To be continued!

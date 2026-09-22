@@ -1,4 +1,3 @@
-//marking for pull request analysis
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "../blocks/App.css";
