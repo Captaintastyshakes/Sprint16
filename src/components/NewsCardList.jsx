@@ -1,4 +1,3 @@
-//marking for pull request analysis
 import NewsCard from "./NewsCard.jsx";
 import React from "react";
 import notFound from "../assets/not-found_v1.svg";

@@ -1,4 +1,3 @@
-//marking for pull request analysis
 import ModalWithForm from "./ModalWithForm.jsx";
 import React from "react";
 import RegisterModal from "./RegisterModal.jsx";

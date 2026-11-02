@@ -1,4 +1,3 @@
-//marking for pull request analysis
 import React from "react";
 import bookmarkDefault from "../assets/bookmark_1.svg";
 import bookmarkHover from "../assets/bookmark2.svg";
