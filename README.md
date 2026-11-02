@@ -7,3 +7,6 @@ With the addition of basic, (and I mean BASIC right now,) user functionality the
 The site is built with the Vite quickstart framework, using React and Javascript under the hood, to manage interactivity and data handling.
 
 In the future the backend will likely be built with a blend of MongoDb and Node.js to create and manage the site database. To be continued!
+
+I have this site running here on github pages:
+https://captaintastyshakes.github.io/Sprint16/
