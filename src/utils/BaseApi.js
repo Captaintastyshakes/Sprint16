@@ -1,4 +1,3 @@
-//marking for pull request analysis
 export default class BaseApi {
   constructor(baseUrl) {
     this._baseUrl = baseUrl;

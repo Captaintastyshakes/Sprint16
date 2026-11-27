@@ -1,4 +1,3 @@
-//marking for pull request analysis
 import Navigation from "./Navigation.jsx";
 import logout from "../assets/logout.svg";
 import logoutW from "../assets/logoutW.svg";
@@ -12,7 +11,7 @@ export default function Header({
 }) {
   return (
     <>
-      <div
+      <header
         className="header__main"
         style={viewingMain ? { color: "white" } : { color: "black" }}
       >
@@ -43,7 +42,7 @@ export default function Header({
             </button>
           )}
         </div>
-      </div>
+      </header>
     </>
   );
 }
