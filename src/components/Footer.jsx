@@ -25,7 +25,7 @@ export default function Footer() {
           </a>
           <a
             className="footer__nav-link footer__nav-link_type_external"
-            href="https://github.com/Captaintastyshakes/Project16"
+            href="https://github.com/Captaintastyshakes/Sprint16"
             target="_blank"
           >
             <img className="footer__icon" src={github} alt="Github icon" />
